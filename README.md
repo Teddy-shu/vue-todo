@@ -33,6 +33,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 開發心得:
   使用vuex的module，將vuex的操作寫在 ..\src\store\modules\todo.js
   於 ..\src\store\index.js import 進入vuex
-  
+  mapActions 內的 function 可以使用async
+  mapMutations 內的 function 不可以使用async
   
 ```
